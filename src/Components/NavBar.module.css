@@ -1,0 +1,107 @@
+body {
+    overflow-x: hidden; /* Oculta cualquier desbordamiento horizontal */
+}
+
+.navBar{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navBarOpen{
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #242325;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navLink{
+    display: flex;
+    font-size: 1.5cm;
+    font-weight: 400;
+    color: #f7bcc9;
+    padding-top: 90px;
+}
+
+.navLink:hover{
+    cursor: pointer;
+}
+
+
+@keyframes animacionborder{
+    0%{
+        height: 0px;
+    }
+    100%{
+        height: 1px;
+    }
+}
+
+.logo{
+    display: flex;
+    color: #f7bcc9;
+    font-weight: 250;
+}
+
+@media (min-width : 800px){
+    .logo{
+        font-size: 1cm;
+    }
+    .navBar{
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 50px;
+    }
+    .linksContainer{
+        display: flex;
+        width: 50%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .navLink{
+        font-weight: 600;
+        padding-top: 4px;
+        font-size: 0.7cm;
+        transition: 0.5s;
+    }
+
+    .navLink:hover{
+        font-size: 0.9cm;
+    }
+
+    .navOnScroll{
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 50px;
+        background-color: #242325;
+    }
+}
+
+.navOnScroll{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #242325;
+}
+
+.contactLink{
+    color: pink#242325;
+    display: flex;
+    font-size: 0.7cm;
+    font-weight: 550;
+    background-color: #f7bcc9;
+    border-radius: 4px;
+    padding: 3px;
+    cursor: pointer;
+}

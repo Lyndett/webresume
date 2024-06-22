@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stepNumber{
+    color: #81F4E1;
+    font-size: 2.5cm;
+    font-weight: 600;
+}
+
+.text{
+    font-size: 1cm;
+    color: #F7BCC9;
+    text-align: center;
+}
+
+.stepBorder{
+    background-color: #81F4E1;
+    height: 6px;
+    width: 60%;
+}
+
+.stepContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width:800px) {
+    .stepContainer{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .stepNumber{
+        padding-right: 40px;
+    }
+}

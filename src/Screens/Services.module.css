@@ -1,0 +1,59 @@
+
+
+.services{
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    flex-direction: column;
+    background:  #1d84b5;
+}
+
+.titleContainer{
+    padding-top: 10px;
+    color: #f7bcc9;
+    font-size: 1.5cm;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+
+@media (max-width: 800px) {
+    .titleContainer{
+        padding-top: 10px;
+        color: #f7bcc9;
+        font-size: 1cm;
+        text-align: center;
+        padding-bottom: 150px;
+    }
+
+    .callToAction {
+        box-sizing: border-box; 
+    }
+    
+}
+
+.callToAction {
+    width: 298px;
+    height: auto;
+    background: linear-gradient(215deg, #F7BCC9, #81f4e1);
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+    /*box-sizing: border-box; EL CUADRO NO SE MUEVE*/ 
+    overflow: hidden; /* Oculta cualquier contenido que se desborde del contenedor */
+}
+
+
+.callToAction:hover{
+    padding: 60px;
+    cursor: pointer;
+}
+
+.ctaContainer{
+    padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}

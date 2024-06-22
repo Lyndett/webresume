@@ -1,0 +1,58 @@
+body {
+    overflow-x: hidden; /* Oculta cualquier desbordamiento horizontal */
+}
+
+.home{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #242325, #1d84b5);
+    padding: 20px 20px 200px;
+    align-items: center;
+}
+
+/* PONER UNA IMAGEN
+.home::before {
+    content: ''; 
+    position: absolute; 
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    background-image: url("C:\Users\dulce\awa\webresume\src\assets\star.png"); 
+    background-size: cover;
+    opacity: 0.5; 
+    background-position: center;
+}*/
+
+.titleContainer{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.home p{
+    font-size: 0.8cm;
+    margin-bottom: 90px;
+    color: #F7BCC9;
+    margin-bottom: 80px;
+    max-width: 1500px;
+}
+
+@media (max-width: 800px) {
+    .home {
+        padding: 20px; /* Reduce el espacio alrededor del contenido */
+    }
+
+    .titleContainer {
+        padding-top: 50px; /* Reduce el espacio superior en pantallas pequeñas */
+    }
+
+    .home p {
+        font-size: 0.7cm;
+        margin-bottom: 90px;
+        color: #F7BCC9;
+        margin-bottom: 80px;
+        max-width: 90%;
+    }
+}
+

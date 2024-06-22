@@ -1,0 +1,36 @@
+.contact{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    background: linear-gradient(180deg, #1d84b5, #242325);
+    align-items: center;
+}
+
+.contact h2{
+    color: pink;
+    font-weight: 400;
+    font-size: 2.5cm;
+}
+
+.form{
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    border: 1px solid pink;
+    width: 90%;
+    background: none;
+    margin-top: 15px;
+}
+
+.form textarea{
+    border: 1px solid pink;
+    resize: none;
+    width: 90%;
+    margin-top: 15px;
+    background: none;
+}

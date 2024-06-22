@@ -1,0 +1,19 @@
+.benefits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1d84b5;
+    padding-bottom: 100px;
+}
+
+.benefits p{
+    color: #f7bcc9;
+    padding-top: 20px;
+    font-size: 1cm;
+}
+
+.benefitTitle{
+    font-size: 2cm;
+    font-weight: 400;
+    color: pink;
+}

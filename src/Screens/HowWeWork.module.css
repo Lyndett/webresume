@@ -1,0 +1,14 @@
+.howWeWork{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    background:  #1d84b5;
+}
+
+.title{
+    font-size: 2cm;
+    color: #f7bcc9;
+    font-weight: 400;
+    text-align: center;
+}
