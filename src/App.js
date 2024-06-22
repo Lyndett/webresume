@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Im
 import ToDoList from './Projects/ToDoList';
 
 
-
+  
 function App() {
   return (
     <Router> {/* Envuelve todo el contenido de enrutamiento con el componente Router */}
@@ -18,9 +18,7 @@ function App() {
         <HowWeWork />
         <Benefits />
         <Contact />
-        <Routes> {/* Envuelve todas las rutas con el componente Routes */}
-          <Route path="/todo-list" element={<ToDoList />} />
-        </Routes>
+        
       </div>
     </Router>
   );
